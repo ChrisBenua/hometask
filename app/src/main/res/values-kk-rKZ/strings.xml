@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">hometask</string>
+    <string name="emptystr">Имя пустое</string>
+    <string name="NAME">Введите имя</string>
+    <string name="MAKE_PHOTO">Сделать  фото</string>
+</resources>
