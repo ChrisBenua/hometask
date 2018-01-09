@@ -28,8 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (!edt.getText().toString().isEmpty()) {
-                    Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                    startActivityForResult(intent, CAMERA_PIC_REQ);
+                    startActivityForResult(new Intent(MediaStore.ACTION_IMAGE_CAPTURE), CAMERA_PIC_REQ);
                 } else {
                     Toast.makeText(getApplicationContext(), R.string.emptystr, Toast.LENGTH_LONG);
                 }
